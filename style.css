@@ -1,0 +1,22 @@
+body {
+    background-color: #222;
+    color: #f7f7f7;
+    font-family: 'Anton', sans-serif;
+}
+
+.navbar-brand i, .nav-item .nav-link {
+    color: #f7f7f7;
+    font-family: 'Anton', sans-serif;
+}
+
+i.fa-solid.fa-g::before {
+    margin-left: -6px;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
