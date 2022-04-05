@@ -68,3 +68,33 @@ i.fa-solid.fa-g::before {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.description {
+    opacity: 1;
+}
+
+.project-text a {
+    color: #f7f7f7;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+}
+
+.project-text p {
+    font-style: italic;
+}
+
+div.portfolio.col-12.col-lg-4 {
+    margin-left: -12px;
+    margin-right: -12px;
+    padding-left: 75px;
+}
+
+@media (max-width: 767px) {
+    div.portfolio.col-12.col-lg-4 {
+        margin-left: -33px;
+        margin-right: -12px;
+    }
+}
+
+
+
+
