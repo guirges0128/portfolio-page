@@ -95,6 +95,22 @@ div.portfolio.col-12.col-lg-4 {
     }
 }
 
+.social {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+}
 
+hr {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
 
-
+.contact {
+    margin-top: 5rem;
+    padding: 0.5rem;
+}

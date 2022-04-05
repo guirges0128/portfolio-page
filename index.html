@@ -20,7 +20,7 @@
   <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#HomePage">
           <i class="fa-solid fa-a"></i>
           <i class="fa-solid fa-g"></i>
         </a>
@@ -35,18 +35,20 @@
         <div class="collapse navbar-collapse" id="navbarDropdownMenu">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#HomePage">Home</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Me</a>
+              <a class="nav-link" href="#Second">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Third">Contact Me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="d-block">
+    <div class="d-block" id="Homepage">
       <div
         class="aspectRatioBox cover-image mb-3 rounded position-relative"
         style="
@@ -72,12 +74,12 @@
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="Second">
       <h2 class="text-center my-5">Projects</h2>
       <div class="row">
         <div class="portfolio col-12 col-lg-4 my-3">
           <img
-            class="img-fluid rounded ps-md-5 ms-md-5 ps-lg-0 ms-lg-0"
+            class="img-fluid rounded justify-content-md-center ps-md-3 ms-md-4 ps-lg-0 ms-lg-0"
             src="./Images/laurenz-heymann-wAygsCk20h8-unsplash.jpg"
             alt=""
           />
@@ -92,7 +94,7 @@
         </div>
         <div class="portfolio col-12 col-lg-4 my-3">
           <img
-            class="img-fluid rounded ps-md-5 ms-md-5 ps-lg-0 ms-lg-0"
+            class="img-fluid rounded justify-content-md-center ps-md-3 ms-md-4 ps-lg-0 ms-lg-0"
             src="./Images/annie-spratt-hWJsOnaWTqs-unsplash.jpg"
             alt=""
           />
@@ -107,7 +109,7 @@
         </div>
         <div class="portfolio col-12 col-lg-4 my-3">
           <img
-            class="img-fluid rounded ps-md-5 ms-md-5 ps-lg-0 ms-lg-0"
+            class="img-fluid rounded justify-content-md-center ps-md-3 ms-md-4 ps-lg-0 ms-lg-0"
             src="./Images/andrea-davis-IWfe63thJxk-unsplash.jpg"
             alt=""
           />
@@ -122,10 +124,28 @@
         </div>
       </div>
     </div>
-    <hr class="mb-5" />
+    <hr />
 
-    <div class="container">
-      <h3 class="text-center my-5">Contact Me</h3>
+    <div class="container my-5" id="Third">
+      <h1 class="contact text-center">Contact Me</h1>
+      <div class="row justify-content-center">
+        <div
+          class="col-12 col-md-6 d-flex justify-content-center align-items-center"
+        >
+          <a
+            class="social d-flex justify-content-center"
+            href="https://github.com/guirges0128"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            class="social d-flex justify-content-center"
+            href="https://www.facebook.com/anthony.guirges"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+      </div>
     </div>
 
     <script
