@@ -9,6 +9,10 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
+.nav-link:hover {
+    opacity: .5;
+}
+
 i.fa-solid.fa-g::before {
     margin-left: -6px;
 }
@@ -88,11 +92,27 @@ div.portfolio.col-12.col-lg-4 {
     padding-left: 75px;
 }
 
-@media (max-width: 767px) {
+.allAboutMe {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    padding-left: 23px;
+
+}
+
+#aboutTitle {
+    padding-top: 50px;
+
+}
+
+
+
+@media (max-width: 768px) {
     div.portfolio.col-12.col-lg-4 {
         margin-left: -33px;
         margin-right: -12px;
     }
+
 }
 
 .social {
@@ -114,3 +134,33 @@ hr {
     margin-top: 5rem;
     padding: 0.5rem;
 }
+
+
+
+@media (max-width: 87.5rem) {
+    .allAboutMe {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 75rem) {
+    .allAboutMe {
+        font-size: 0.80rem;
+        line-height: 2.4rem;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 62rem) {
+    .allAboutMe {
+        line-height: 1.20rem;
+    }
+}
+
+@media (max-width: 48rem) {
+    .allAboutMe {
+        line-height: 2rem;
+        text-align: center;
+    }
+}
+
