@@ -94,7 +94,7 @@ div.portfolio.col-12.col-lg-4 {
 
 .allAboutMe {
     font-size: 1.5rem;
-    line-height: 2.5rem;
+    line-height: 2.3rem;
     font-weight: 600;
     padding-left: 23px;
 
@@ -135,25 +135,32 @@ hr {
     padding: 0.5rem;
 }
 
+.highlite {
+    background: linear-gradient(to bottom, #222 50%, #002251 1%);
+    color: #00fdfdd9;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px #fff;
+}
 
 
 @media (max-width: 87.5rem) {
     .allAboutMe {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 
 @media (max-width: 75rem) {
     .allAboutMe {
-        font-size: 0.80rem;
-        line-height: 2.4rem;
+        font-size: 1rem;
+        line-height: 1.8rem;
         font-weight: 700;
     }
 }
 
 @media (max-width: 62rem) {
     .allAboutMe {
-        line-height: 1.20rem;
+        line-height: 1.125rem;
+        font-size: 0.84rem;
     }
 }
 
@@ -161,6 +168,7 @@ hr {
     .allAboutMe {
         line-height: 2rem;
         text-align: center;
+        width: 100%;
     }
 }
 
